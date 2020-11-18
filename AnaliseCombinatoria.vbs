@@ -1,6 +1,6 @@
 set fso=createobject("scripting.FileSystemObject")
 dim x
-x = "./teste.txt"
+x = "./resultado.txt"
 set y=fso.opentextfile(x,2,true)
 for i= 1 to 5
 for b= i + 1 to 5
